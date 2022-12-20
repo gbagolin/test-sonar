@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TestSonarApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TestSonarApplication.class, args);
-	}
+    public static void main(String[] args) {
+        System.out.println("ciao");
+        SpringApplication.run(TestSonarApplication.class, args);
+    }
 
 }
